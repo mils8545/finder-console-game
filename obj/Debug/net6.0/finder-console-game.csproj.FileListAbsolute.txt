@@ -1,0 +1,15 @@
+C:\Users\miliw\Documents\dev\finder-console-game\bin\Debug\net6.0\finder-console-game.exe
+C:\Users\miliw\Documents\dev\finder-console-game\bin\Debug\net6.0\finder-console-game.deps.json
+C:\Users\miliw\Documents\dev\finder-console-game\bin\Debug\net6.0\finder-console-game.runtimeconfig.json
+C:\Users\miliw\Documents\dev\finder-console-game\bin\Debug\net6.0\finder-console-game.dll
+C:\Users\miliw\Documents\dev\finder-console-game\bin\Debug\net6.0\finder-console-game.pdb
+C:\Users\miliw\Documents\dev\finder-console-game\obj\Debug\net6.0\finder-console-game.csproj.AssemblyReference.cache
+C:\Users\miliw\Documents\dev\finder-console-game\obj\Debug\net6.0\finder-console-game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miliw\Documents\dev\finder-console-game\obj\Debug\net6.0\finder-console-game.AssemblyInfoInputs.cache
+C:\Users\miliw\Documents\dev\finder-console-game\obj\Debug\net6.0\finder-console-game.AssemblyInfo.cs
+C:\Users\miliw\Documents\dev\finder-console-game\obj\Debug\net6.0\finder-console-game.csproj.CoreCompileInputs.cache
+C:\Users\miliw\Documents\dev\finder-console-game\obj\Debug\net6.0\finder-console-game.dll
+C:\Users\miliw\Documents\dev\finder-console-game\obj\Debug\net6.0\refint\finder-console-game.dll
+C:\Users\miliw\Documents\dev\finder-console-game\obj\Debug\net6.0\finder-console-game.pdb
+C:\Users\miliw\Documents\dev\finder-console-game\obj\Debug\net6.0\finder-console-game.genruntimeconfig.cache
+C:\Users\miliw\Documents\dev\finder-console-game\obj\Debug\net6.0\ref\finder-console-game.dll
