@@ -1,11 +1,34 @@
-﻿class Program
+﻿using System;
+using System.Timers;
+
+class Program
 {
+    private static System.Timers.Timer blinkTimer;
+    private static Screen screen;
+
+    static private void SetTimer()
+    {
+        // Create a timer with a two second interval.
+        blinkTimer = new System.Timers.Timer(300);
+        // Hook up the Elapsed event for the timer. 
+        blinkTimer.Elapsed += BlinkEvent;
+        blinkTimer.AutoReset = true;
+        blinkTimer.Enabled = true;
+    }
+    static private void BlinkEvent(Object source, ElapsedEventArgs e)
+    {
+        
+        screen.toggleBlink();
+    }
+
     static void Main(string[] args)
     {
         bool gameOver = false;
-        Screen screen = new Screen();
+        screen = new Screen();
         screen.Clear();
+        SetTimer();
         var watch = System.Diagnostics.Stopwatch.StartNew();
+        SetTimer();
 
         while (!gameOver)
         {

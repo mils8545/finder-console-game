@@ -5,7 +5,11 @@ class Screen
     public int width = 10;
     public int height = 10;
     public char[,] screen = new char[20, 20];
-
+    public bool blink = false;
+    public void toggleBlink()
+    {
+        blink = !blink;
+    }
     public void Clear()
     {
         for (int i = 0; i < width; i++)
@@ -28,7 +32,7 @@ class Screen
             string lineString = "";
             for (int j = 0; j < height; j++)
             {
-                if (i == yCursor && j == xCursor)
+                if ((i == yCursor && j == xCursor) && blink)
                 {
                     lineString += "X" + " ";
                 }
